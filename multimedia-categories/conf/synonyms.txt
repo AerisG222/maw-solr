@@ -32,5 +32,5 @@ sasa,alyssa
 dumbo,mike
 ed,edmund,cowfoo,cow foo
 vicky,vicki,momo,mo
-phil,suksuk,suk
+phil,suksuk,suk,sooksook,sook
 mi,yiyi,yi
