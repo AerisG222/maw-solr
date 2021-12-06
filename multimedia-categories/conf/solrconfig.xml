@@ -851,6 +851,7 @@
             <!-- Query settings -->
             <str name="defType">dismax</str>
             <str name="qf">
+                type
                 name^10
                 year
 
