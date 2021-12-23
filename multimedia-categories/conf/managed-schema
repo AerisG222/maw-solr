@@ -458,7 +458,7 @@
   <field name="gps_latitude" type="pfloat" uninvertible="true" indexed="true" stored="true"/>
   <field name="gps_longitude" type="pfloat" uninvertible="true" indexed="true" stored="true"/>
   <field name="id" type="pint" uninvertible="false" indexed="false" stored="true" required="true"/>
-  <field name="is_private" type="boolean" uninvertible="true" indexed="true" stored="true" required="true"/>
+  <field name="allowed_roles" type="strings" uninvertible="true" indexed="true" stored="true" required="true"/>
   <field name="name" type="text_en_splitting" uninvertible="true" indexed="true" stored="true" required="true"/>
   <field name="poi_names" type="text_en_splitting" multiValued="true" uninvertible="true" indexed="true" stored="true"/>
   <field name="poi_types" type="text_en_splitting" multiValued="true" uninvertible="true" indexed="true" stored="true"/>
