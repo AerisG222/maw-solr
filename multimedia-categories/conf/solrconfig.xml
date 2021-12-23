@@ -849,8 +849,9 @@
             <str name="sort">score desc, year desc, name asc</str>
 
             <!-- Query settings -->
-            <str name="defType">dismax</str>
+            <str name="defType">edismax</str>
             <str name="qf">
+                allowed_roles
                 type
                 name^10
                 year
