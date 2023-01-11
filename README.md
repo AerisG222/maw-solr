@@ -1,7 +1,7 @@
+This is now fully replaced by the deploy process in the [ansible](https://github.com/aerisg222/ansible) repository.
+
+
 # maw-solr
-
-![CI](https://github.com/AerisG222/maw-solr/workflows/CI/badge.svg)
-
 This repository previously provided a custom solr container which would include the Postgres JDBC driver for use by dataimporthandler.
 However, given that dataimporthandler is deprecated, a standalone application was built (see maw-solr-indexer repo) to acheive the same result.
 As such, we can now leverage the official solr image directly rather than using this custom helper.
